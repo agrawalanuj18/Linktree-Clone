@@ -25,6 +25,9 @@ header {
   border-radius: 20px;
   background-color: white;
 }
+.share-button i {
+  margin: 5px 5px;
+}
 
 .container {
   width: 91%;
@@ -43,6 +46,11 @@ header {
   border-radius: 17px;
   display: flex;
   justify-content: space-between;
+}
+
+.tile:hover {
+  transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
+  transform: scale(1.02);
 }
 
 a {
@@ -64,13 +72,18 @@ h1 {
   height: 100%;
 }
 
-.title-share{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(52, 52, 52);
-    margin: 8px;
+.title-share {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(52, 52, 52);
+  margin: 8px;
 }
-.fa{
-    margin: 4px 8px;
+.fa {
+  margin: 4px 8px;
 }
+.title-share i {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+ 
